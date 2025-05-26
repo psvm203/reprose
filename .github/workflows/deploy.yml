@@ -35,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist # Vite 기본 출력 디렉토리
+          path: vite-dev # Vite 기본 출력 디렉토리
 
   deploy:
     needs: build
