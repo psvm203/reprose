@@ -4,7 +4,7 @@ import tailwindcss from "tailwindcss";
 
 export default defineConfig({
   build: {
-    outDir: 'dist'
+    outDir: 'vite-dev'
   },
   plugins: [RubyPlugin()],
   css: {
